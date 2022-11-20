@@ -30,5 +30,8 @@ public class Main {
         }catch (IllegalArgumentException e){
             e.printStackTrace();
         }
+
+        System.out.println("Average of " + bread.getName() + " ratings is: " + bread.averageRating());
+        System.out.println("Average of " + bread.getName() + " ratings with streams is: " + bread.averageRatingWithStreams());
     }
 }
