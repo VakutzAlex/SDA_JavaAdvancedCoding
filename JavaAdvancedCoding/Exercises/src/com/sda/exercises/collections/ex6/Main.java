@@ -18,5 +18,17 @@ public class Main {
 
         System.out.println("Average of " + bread.getName() + " ratings is: " + bread.averageRating());
         System.out.println("Average of " + bread.getName() + " ratings with streams is: " + bread.averageRatingWithStreams());
+
+        try {
+            bread.addRating(0);
+        }catch (IllegalArgumentException e){
+            e.printStackTrace();
+        }
+
+        try{
+            bread.addRating(8);
+        }catch (IllegalArgumentException e){
+            e.printStackTrace();
+        }
     }
 }
