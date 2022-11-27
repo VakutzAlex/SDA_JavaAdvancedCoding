@@ -32,7 +32,7 @@ public class Basket {
         if(products.size()>0){
             products.remove(product);
         }else {
-            throw new BasketEmptyException();
+            //throw new BasketEmptyException();
         }
     }
 }
