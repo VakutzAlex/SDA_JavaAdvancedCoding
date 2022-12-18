@@ -1,4 +1,6 @@
-package org.example;
+package org.example.day1;
+
+import org.example.day1.DataBaseConnection;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
